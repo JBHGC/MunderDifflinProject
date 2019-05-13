@@ -1,0 +1,32 @@
+#navbar {
+  height: 90px;
+  font-family: sans-serif;
+  list-style-type: none;
+  margin: 0 0;
+  background-color: #0078D7;
+}
+a {
+  text-decoration: none;
+  text-align: center;
+
+}
+li {
+  display: inline;
+  padding: 10px 16px;
+
+}
+
+.home {
+
+}
+
+.about {
+  float: right;
+  padding-top: 0;
+}
+
+.contact {
+  position: relative;
+  float: right;
+  padding-top: 0;
+}
