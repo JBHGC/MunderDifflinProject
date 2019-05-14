@@ -21,7 +21,7 @@ h1 img {
 .blk {
   margin: 0;
   left: -9px;
-  height: 678px;
+  height: 86vh;
   background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0));
   position: relative;
   top: 3px;
@@ -35,6 +35,11 @@ a {
   padding-top: 3%;
   color: white;
 }
+
+a:hover {
+  color: rgb(0, 18, 255);
+}
+
 li {
   display: inline-block;
   padding: 10px 16px;
@@ -64,6 +69,33 @@ li {
   position: relative;
   padding-top: 3%;
   padding-left: 11%;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding-right: 49px;
+}
+
+#paps:hover {
+  color: rgb(0, 18, 255);
+  cursor: pointer;
+}
+
+.pop {
+  display: block;
+  position: relative;
+  padding-top: 10px;
+  background-color: #0078FF;
+  padding-bottom: 10px;
+  border-top: 2px solid white;
+  top: 33px;
+}
+
+.hidden {
+  /* opacity: 0; */
+  z-index: -100;
+  position: relative;
+  display: block;
+  top: -130px;
 }
 
 p img {
@@ -80,10 +112,9 @@ p img {
   color: rgba(255, 255, 255, 0.8);
   word-wrap: normal;
   position: relative;
-  top: 234px;
+  top: 150px;
   font-family: sans-serif;
   line-height: 99px;
   margin: 0;
-  position: fixed;
   font-style: italic;
 }

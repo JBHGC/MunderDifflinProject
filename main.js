@@ -1,8 +1,15 @@
-$(document).ready(function(){
-  $("div").animate({
-    left: '250px',
-    opacity: '0.5',
-    height: '150px',
-    width: '150px'
-    });
-});
+
+var pMenu = document.getElementsByClassName('ddtag');
+var drop
+
+document.getElementById("paps").addEventListener('click', cometh);
+
+
+function cometh() {
+  for(drop of pMenu){
+    drop.classList.toggle('pop');
+    drop.classList.toggle('hidden');
+}
+}
+
+window.onclick = 
