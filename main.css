@@ -7,6 +7,10 @@
   position: sticky;
   /* border: 1px solid white; */
 }
+body {
+  margin-bottom: 0;
+  height: 99%;
+}
 
 h1 img {
   position: absolute;
@@ -21,7 +25,7 @@ h1 img {
 .blk {
   margin: 0;
   left: -9px;
-  height: 86vh;
+  height: 100vh;
   background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0));
   position: relative;
   top: 3px;
@@ -63,16 +67,19 @@ li {
   float: left;
   padding-top: 3%;
   padding-left: 13%;
+  padding-right: 12%;
 }
 
 .paper {
   position: relative;
   padding-top: 3%;
-  padding-left: 11%;
   text-decoration: none;
   text-align: center;
   color: white;
-  padding-right: 49px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  height: 25px;
 }
 
 #paps:hover {
@@ -87,7 +94,7 @@ li {
   background-color: #0078FF;
   padding-bottom: 10px;
   border-top: 2px solid white;
-  top: 33px;
+  top: 115%;
 }
 
 .hidden {
@@ -95,12 +102,12 @@ li {
   z-index: -100;
   position: relative;
   display: block;
-  top: -130px;
+  top: -430px;
 }
 
 p img {
   position: absolute;
-  width: 100%;
+  width: 1263px;
   margin-left: -8px;
   z-index: -2;
 }
@@ -117,4 +124,39 @@ p img {
   line-height: 99px;
   margin: 0;
   font-style: italic;
+}
+
+.fGrid {
+  position: relative;
+  background-color: #0078FF;
+  margin: -8px;
+  right: 10;
+  height: 100px;
+  bottom: 18px;
+}
+
+.lawyerStuff {
+  text-align: right;
+  float: right;
+}
+
+.plugs {
+  font-family: sans-serif;
+  float: left;
+  color: White;
+
+}
+
+.copywrite {
+  font-family: serif;
+  text-align: center;
+  color: white;
+  opacity: .8;
+  padding-top: 30px;
+  background-color: #0078FF;
+  padding-bottom: 9px;
+}
+
+ul {
+  padding-left: 10px;
 }
